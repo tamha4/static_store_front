@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #000;
+    padding: 10px 0;
+}
+
+h1 {
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 10px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menuBar {
+    float: left;
+    overflow: hidden;
+    margin-top: 7px;
+}
+
+.menuBar .dropBar {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    cursor: pointer;
+}
+
+.navbar a:hover, .menuBar:hover .dropBar {
+    background-color: black;
+}
+
+.menubar-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border: 2px solid black;
+}
+
+.menubar-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.menubar-content a:hover {
+    background-color: gray;
+}
+
+.menuBar:hover .menubar-content {
+    display: block;
+}
+
+.cart {
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 6px 10px;
+    float: right;
+    background-color: black;
+}
+
+
+
+.signUp {
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
+    float: right;
+    background-color: black;
+}
+
+.icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: -20px;
+}
+
+.tbar {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+
+h2 {
+    font-size: 28px;
+    color: black;
+}
+
+
+#searchBar {
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+#searchBar input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+}
+
+
+
+.image{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 25px;
+
+}
+.text {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 1px;
+}
+
+.text2, .text3 {
+    font-size: 20px;
+}
+
+
+
+.cleats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cleats {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.cleats img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cleats p {
+    margin-top: 10px;
+    font-size: 14px;
+    
+}
+
+
+ .ball-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.balls {
+    flex: 20%; 
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.balls img {
+    max-width: 100%;
+    height: auto;
+}
+
+.balls p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.gears-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.gears {
+    flex: 20%; 
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.gears p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.container {
+    margin: auto;
+    padding: 1.5rem;
+    background-color: #c15f5f; 
+    border: solid 1px gray;
+    border-radius: 5px;
+    max-width: 400px; 
+    height: 100%;
+}
+
+
+footer {
+    margin-top: 1rem;
+    border-top: 1px solid #ccc; /* Add a border at the top of the footer */
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #000;
+}
+
+footer a {
+    margin: 0 1rem;
+    display: inline-block; /* Make the links appear horizontally */
+}
+
+footer img {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+/* Add hover effect for the icons */
+footer a:hover img {
+    filter: brightness(1.2); /* Adjust brightness on hover */
+}
+
+
+
+
+
